@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    let userInput = window.prompt("Enter Number");
+    for(let i = 1; i < userInput; i++){
+      if(i%3 == 0)
+      {
+        console.log("fizz");
+      }
+      if(i%5 == 0) {
+        console.log("buzz");
+      }
+      else if(i%3 != 0 && i%5 !=0){
+        console.log(i);
+      }
+    }
+  </script>
+</body>
+</html>
